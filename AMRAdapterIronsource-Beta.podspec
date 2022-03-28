@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterIronsource-Beta'
-  s.version          = '7.2.0.0'
+  s.version          = '7.2.1.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
   }
   s.vendored_frameworks = 'AMRAdapterIronsource/Libs/AMRAdapterIronsource.xcframework'
   s.dependency 'AMRSDK-Beta', '~> 1.5.7'
-  s.dependency 'IronSourceSDK', '7.2.0'
+  s.dependency 'IronSourceSDK', '7.2.1'
 end
