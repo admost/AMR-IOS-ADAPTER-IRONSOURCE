@@ -3,6 +3,12 @@
 Changelog for AMRAdapterIronsource. 
 IronSourceSDK [changelog](https://developers.is.com/ironsource-mobile/ios/sdk-change-log)
 
+## [7.3.1.0] - 2023-07-11
+### Updated
+- Offical release for IronSourceSDK 7.3.1
+- Offerwall removed.
+- Banner support added.
+
 ## [7.3.0.0] - 2023-04-24
 ### Updated
 - Offical release for IronSourceSDK 7.3.0
