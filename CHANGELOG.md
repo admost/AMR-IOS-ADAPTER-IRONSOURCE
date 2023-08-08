@@ -6,6 +6,7 @@ IronSourceSDK [changelog](https://developers.is.com/ironsource-mobile/ios/sdk-ch
 ## [7.4.0.0] - 2023-08-08
 ### Updated
 - Offical release for IronSourceSDK 7.4.0
+- Min iOS version 11.0
 
 ## [7.3.1.0] - 2023-07-11
 ### Updated

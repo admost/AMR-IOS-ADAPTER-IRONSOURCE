@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
  								}
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
   s.swift_versions = ['5']
   s.pod_target_xcconfig = {
     "VALID_ARCHS": "arm64 arm64e armv7 armv7s x86_64",
