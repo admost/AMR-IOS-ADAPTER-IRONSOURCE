@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterIronsource-Beta'
-  s.version          = '8.5.1.0'
+  s.version          = '8.5.1.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.vendored_frameworks = 'AMRAdapterIronsource/Libs/AMRAdapterIronsource.xcframework'
-  s.dependency 'AMRSDK-Beta', '~> 1.5.40'
+  s.dependency 'AMRSDK-Beta', '~> 1.5.55'
   s.dependency 'IronSourceSDK', '= 8.5.1'
 end
