@@ -3,6 +3,10 @@
 Changelog for AMRAdapterIronsource. 
 IronSourceSDK [changelog](https://developers.is.com/ironsource-mobile/ios/sdk-change-log)
 
+## [8.11.0.0] - 2025-08-25
+### Updated
+- Offical release for IronSourceSDK 8.11.0.0
+
 ## [8.10.0.0] - 2025-07-31
 ### Updated
 - Offical release for IronSourceSDK 8.10.0.0
