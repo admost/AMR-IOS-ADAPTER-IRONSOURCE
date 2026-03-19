@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterIronsource'
-  s.version          = '9.3.0.0'
+  s.version          = '9.3.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_versions = ['5']
   s.pod_target_xcconfig = {
-    "VALID_ARCHS": "arm64 arm64e armv7 armv7s x86_64",
-    'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s arm64 arm64e',
-    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64 arm64e'
+    "VALID_ARCHS": "arm64 x86_64",
+    'VALID_ARCHS[sdk=iphoneos*]' => 'arm64',
+    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.vendored_frameworks = 'AMRAdapterIronsource/Libs/AMRAdapterIronsource.xcframework'
-  s.dependency 'AMRSDK', '~> 1.5.55'
+  s.dependency 'AMRSDK', '~> 1.5.84'
   s.dependency 'IronSourceSDK', '= 9.3.0'
 end
