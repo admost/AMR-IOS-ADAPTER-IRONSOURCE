@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.5.84"),
+        .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.6.0-beta.1"),
         .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package.git", from: "9.3.0")
     ],
     targets: [
