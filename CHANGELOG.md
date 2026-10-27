@@ -3,6 +3,11 @@
 Changelog for AMRAdapterIronsource. 
 IronSourceSDK [changelog](https://developers.is.com/ironsource-mobile/ios/sdk-change-log)
 
+## [9.7.0] - 2026-10-27
+### Updated
+- Official release for IronSourceSDK 9.7.0.0
+- Minimum iOS version raised to 13.0 (required by IronSourceSDK 9.5.0+, which also needs Xcode 26+ to build)
+
 ## [9.3.0] - 2026-03-19
 ### Updated
 - Offical release for IronSourceSDK 9.3.0
